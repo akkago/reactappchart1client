@@ -1,0 +1,27 @@
+﻿#root {
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.chartWrapper {
+    position: relative;
+}
+
+    .chartWrapper > canvas {
+        position: absolute;
+        left: 0;
+        top: 0;
+        pointer-events: none;
+    }
+
+.chartAreaWrapper {
+    width: 600px;
+    overflow-x: scroll;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
